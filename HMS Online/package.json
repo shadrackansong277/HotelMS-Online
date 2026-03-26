@@ -1,0 +1,18 @@
+{
+  "name": "grand-vista-hms-web",
+  "version": "2.0.0",
+  "description": "Grand Vista Hotel Management System — Web Edition",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "express-rate-limit": "^7.1.5",
+    "bcryptjs": "^2.4.3",
+    "sql.js": "^1.10.3",
+    "uuid": "^9.0.0"
+  }
+}
